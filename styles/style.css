@@ -84,6 +84,10 @@ section{
 .menu a{
     text-decoration: none;
 }
+.menu-button a:visited {
+    color: #161616;
+    text-decoration: none;
+  }
 .menu .menu-button{
     justify-content: center;
     text-align: center;
@@ -91,6 +95,9 @@ section{
     background-color: white;
     padding: 20px;
     border-radius: 10px;
+}
+#menu-button-blog{
+    background-color: #DD0000;
 }
 .transfers{
     display: grid;

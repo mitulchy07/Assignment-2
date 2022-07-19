@@ -56,6 +56,9 @@ section{
     color: whitesmoke;
     text-decoration: none;
 }
+.title-text a:hover{
+    background-color:blue;
+}
 
 .player{
     margin-top: 30px;
@@ -92,7 +95,7 @@ section{
     background-color: #161616;
     border-radius: 10px;
 }
-.menu .menu-button{
+.menu-button{
     justify-content: center;
     text-align: center;
     margin: 30px;
@@ -100,6 +103,18 @@ section{
     padding: 20px;
     border-radius: 10px;
 }
+#menu-button-match{
+    background-color: #DD0000;
+}
+
+.menu-button a:visited {
+    color: #161616;
+    text-decoration: none;
+  }
+  .menu-button a:link {
+    color: #161616;
+    text-decoration: none;
+  }
 
 .transfers{
     display: grid;
