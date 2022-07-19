@@ -6,9 +6,12 @@ body{
 }
 main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-
+section{
+    margin-bottom: 100px;
+}
 .top-banner{
     background-color: #161616 ;
     display: grid;
@@ -52,4 +55,93 @@ main{
 .player img{
     width: 80%;
     display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+.second-section{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 24px;
+    max-width: 1321px;
+}
+.menu{
+    Width: 312px;
+    height: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+}
+.menu .menu-button{
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.transfers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    
+}
+.blog img{
+    width: 100%;
+    display: block;
+    
+}
+.blog a{
+    text-decoration: none;
+    color: #161616;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.blog{
+    border: 1px solid gray;
+    border-radius: 10px;
+
+}
+.blog .blog-text{
+    padding: 20px;
+}
+.blog-text span{
+    padding: 5px;
+}
+
+
+
+
+
+footer{
+    background-color: #161616;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0%;
+    padding: 50px;
+
+}
+
+footer h1 {
+    color: whitesmoke;
+}
+
+footer ul{
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+footer hr{
+    color: #FFFFFF;
+    margin: 100px;
 }
