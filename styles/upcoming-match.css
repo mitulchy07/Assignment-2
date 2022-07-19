@@ -192,3 +192,100 @@ footer hr{
     color: #FFFFFF;
     font-size: 40px;
 }
+
+
+
+
+/*-----------------------
+
+  MEDIA QUERY
+
+-------------------------*/
+
+
+
+@media screen and (max-width:667px) {
+    section{
+        padding: 10px;
+    }
+    .top-banner{
+        background-color: #161616 ;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        align-items: center;
+    
+    }
+    .title-text{
+        text-align: center;
+        padding: 10px;
+    }
+    .title-text h1{
+        color: #FFFFFF;
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+    
+    .title-text p{
+        color: #FFFFFF;
+        margin-bottom: 40px;
+    }
+    
+    .title-text a{
+        background-color:#DD0000
+        ;
+        padding: 16px;
+        border-radius: 5px;
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    
+    .player{
+        margin: 0  30px;
+        margin-bottom: 0px;
+    }
+    .player img{
+        width: 100%;
+     
+    }
+    .second-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu{
+        Width: 312px;
+        height: 312px;
+        background-color: transparent;
+        border-radius: 10px;
+    }
+    .menu-button{
+        justify-content: center;
+        text-align: center;
+        margin: 30px;
+        padding: 20px;
+        border: 1px solid;
+        border-radius:  10px;
+    }
+    .transfers{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .information ul{
+        color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    }
+    .information li{
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+}
