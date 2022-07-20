@@ -49,9 +49,7 @@ section{
     padding: 0 106px;
 
 }
-.title-text a:hover{
-    background-color:blue;
-}
+
 .title-text h1{
     color: #FFFFFF;
     font-size: 50px;
@@ -70,6 +68,22 @@ section{
     border-radius: 5px;
     color: whitesmoke;
     text-decoration: none;
+    animation: anima 3s alternate 0s infinite ease;
+}
+
+@keyframes anima {
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: black;
+    }
+
+    100%{
+
+        background-color: blue;
+    }
+    
 }
 
 .player{

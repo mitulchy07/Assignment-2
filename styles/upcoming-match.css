@@ -58,6 +58,7 @@ section{
     margin-bottom: 40px;
 }
 
+
 .title-text a{
     background-color:#DD0000
     ;
@@ -65,9 +66,22 @@ section{
     border-radius: 5px;
     color: whitesmoke;
     text-decoration: none;
+    animation: anima 5s alternate 0s infinite ease;
 }
-.title-text a:hover{
-    background-color:blue;
+
+@keyframes anima {
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: black;
+    }
+
+    100%{
+
+        background-color: blue;
+    }
+    
 }
 
 .player{
